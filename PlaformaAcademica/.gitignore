@@ -1,0 +1,24 @@
+# Node
+node_modules/
+frontend/plataforma-academica/node_modules/
+
+# Angular
+dist/
+.angular/
+coverage/
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# Visual Studio
+.vs/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

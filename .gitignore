@@ -1,0 +1,29 @@
+# =========================
+# NODE / ANGULAR
+# =========================
+node_modules/
+frontend/plataforma-academica/node_modules/
+dist/
+.angular/
+coverage/
+
+# =========================
+# .NET
+# =========================
+bin/
+obj/
+*.user
+*.suo
+*.cache
+.vs/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
