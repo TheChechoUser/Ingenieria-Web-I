@@ -1,0 +1,19 @@
+<p>main-layout works!</p>
+<div class="layout">
+  <header class="header">
+    <h2>Plataforma Académica</h2>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <nav>
+        <a routerLink="/" routerLinkActive="active">Dashboard</a>
+        <a routerLink="/estudiantes" routerLinkActive="active">Estudiantes</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
