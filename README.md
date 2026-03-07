@@ -1,4 +1,4 @@
-# SISTEMA DE MOTIVACIÓN Y GESTIÓN ACADÉMICA
+# SISTEMA DE GESTIÓN ACADÉMICA 
 
 Este proyecto nace como una solución ante la problemática de la deserción universitaria.
 Muchos estudiantes abandonan sus estudios debido a la falta de organización y la desmotivación al no poder ver su progreso real.
