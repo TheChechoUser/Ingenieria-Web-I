@@ -10,6 +10,8 @@ La plataforma web propuesta actúa como un acompañante estratégico para el est
 ========================
 ## Objetivo de proyecto
 ========================
+
+
 Proporcionar una herramienta tecnológica eficaz que permita a los estudiantes:
 
 1.Organizar sus tareas académicas.
@@ -38,6 +40,9 @@ Esta fase permitió comprender las necesidades del usuario y establecer las base
 ========================
 ### Etapa 2: Requisitos
 ========================
+
+
+
 Durante esta etapa se identificaron y documentaron los requerimientos funcionales y no funcionales del sistema.
 
 Entre las actividades realizadas se incluyen:
@@ -73,6 +78,8 @@ Esto permite que la plataforma funcione como una aplicación web interactiva, me
 Arquitectura de Manipulación del DOM en el Sistema
 ===================================================
 
+
+
 El siguiente diagrama muestra cómo las interacciones del usuario generan eventos que son procesados por la lógica del sistema y finalmente actualizan el DOM.
 
 Este flujo describe el proceso mediante el cual:
@@ -87,6 +94,8 @@ Este flujo describe el proceso mediante el cual:
 ===================================================
 Estructura del DOM del Sistema
 ===================================================
+
+
 
 El DOM dentro del sistema se organiza como un árbol de nodos, donde cada elemento de la interfaz forma parte de una estructura jerárquica.
 -------------------------------------------------------
