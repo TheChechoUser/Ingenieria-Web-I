@@ -1,5 +1,7 @@
 # SISTEMA DE GESTIÓN ACADÉMICA 
 ==============================
+
+
 Este proyecto nace como una solución ante la problemática de la deserción universitaria.
 Muchos estudiantes abandonan sus estudios debido a la falta de organización y la desmotivación al no poder visualizar su progreso académico de forma clara.
 
@@ -21,6 +23,7 @@ De esta manera se busca reducir la deserción estudiantil mediante el apoyo de h
 ========================
 ### Etapa 1: Analisis
 ========================
+
 En esta etapa se realizó la identificación del problema, los actores involucrados y el contexto en el cual opera el sistema.
 
 Se definieron los siguientes aspectos:
@@ -51,6 +54,8 @@ Esta fase permitió establecer la estructura lógica y técnica que guiará el d
 ====================================================
 ### Etapa 3: Manipulacion del Dom y puntos criticos 
 ===================================================
+
+
 En esta etapa se documenta el uso del Document Object Model (DOM) dentro del sistema y su relación con la interacción del usuario en la interfaz web.
 
 El DOM permite representar el documento HTML como una estructura jerárquica de nodos en memoria, lo que posibilita que el sistema modifique dinámicamente los elementos de la interfaz mediante JavaScript.
@@ -65,7 +70,7 @@ Gracias a la manipulación del DOM, la aplicación puede:
 Esto permite que la plataforma funcione como una aplicación web interactiva, mejorando la experiencia del usuario.
 
 ===================================================
-Arquitectura de Manipulación del DOM en el Sistema
+###Arquitectura de Manipulación del DOM en el Sistema
 ===================================================
 
 El siguiente diagrama muestra cómo las interacciones del usuario generan eventos que son procesados por la lógica del sistema y finalmente actualizan el DOM.
@@ -80,7 +85,7 @@ Este flujo describe el proceso mediante el cual:
 
 
 ===================================================
-Estructura del DOM del Sistema
+###Estructura del DOM del Sistema
 ===================================================
 
 El DOM dentro del sistema se organiza como un árbol de nodos, donde cada elemento de la interfaz forma parte de una estructura jerárquica.
@@ -111,7 +116,7 @@ Este mecanismo permite que la aplicación funcione de manera dinámica, interact
 
 
 ===================================================
-Conclusión
+###Conclusión
 ===================================================
 
 La manipulación del Document Object Model (DOM) es un componente esencial dentro del sistema, ya que permite gestionar la interacción entre el usuario y la interfaz de la aplicación.
