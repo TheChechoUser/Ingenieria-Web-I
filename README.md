@@ -52,7 +52,7 @@ Entre las actividades realizadas se incluyen:
 Esta fase permitió establecer la estructura lógica y técnica que guiará el desarrollo de la aplicación.
 
 ====================================================
-### Etapa 3: Manipulacion del Dom y puntos criticos 
+Etapa 3: Manipulacion del Dom y puntos criticos 
 ===================================================
 
 
@@ -70,7 +70,7 @@ Gracias a la manipulación del DOM, la aplicación puede:
 Esto permite que la plataforma funcione como una aplicación web interactiva, mejorando la experiencia del usuario.
 
 ===================================================
-###Arquitectura de Manipulación del DOM en el Sistema
+Arquitectura de Manipulación del DOM en el Sistema
 ===================================================
 
 El siguiente diagrama muestra cómo las interacciones del usuario generan eventos que son procesados por la lógica del sistema y finalmente actualizan el DOM.
@@ -85,7 +85,7 @@ Este flujo describe el proceso mediante el cual:
 
 
 ===================================================
-###Estructura del DOM del Sistema
+Estructura del DOM del Sistema
 ===================================================
 
 El DOM dentro del sistema se organiza como un árbol de nodos, donde cada elemento de la interfaz forma parte de una estructura jerárquica.
@@ -116,7 +116,7 @@ Este mecanismo permite que la aplicación funcione de manera dinámica, interact
 
 
 ===================================================
-###Conclusión
+Conclusión
 ===================================================
 
 La manipulación del Document Object Model (DOM) es un componente esencial dentro del sistema, ya que permite gestionar la interacción entre el usuario y la interfaz de la aplicación.
