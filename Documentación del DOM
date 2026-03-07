@@ -1,0 +1,134 @@
+==============================================
+Documentación del DOM (Document Object Model)
+=============================================
+---------------------------------
+Introducción
+---------------------------------
+El Document Object Model (DOM) es una API de programación que representa un documento HTML o XML como una estructura jerárquica de nodos en memoria.
+
+Cuando un navegador carga una página web ocurre el siguiente proceso:
+
+1.El navegador interpreta el documento HTML.
+2.Construye una representación estructurada del documento.
+3.Genera el árbol del DOM (DOM Tree).
+
+Esta estructura permite que JavaScript interactúe dinámicamente con la página, modificando:
+
+-contenido
+-atributos
+-estilos
+-comportamiento de los elementos
+
+============================
+Estructura del DOM
+============================
+El DOM se representa como un árbol de nodos (DOM Tree) donde cada elemento del documento corresponde a un nodo.
+
+
+Document
+   │
+  html
+  │
+ ├── head
+ │
+ └── body
+       │
+       └── div
+             │
+             └── p
+
+La raíz del árbol es el objeto document, que representa todo el documento cargado en el navegador.
+
+============================
+Tipos de Nodos
+============================
+
+Dentro del DOM existen diferentes tipos de nodos que representan las distintas partes del documento.
+
+----------------
+Document Node
+----------------
+Es el nodo raíz del árbol del DOM.
+
+Representa el documento completo cargado en el navegador.
+
+Ejemplo:
+=========
+document
+=========
+
+A través de este objeto se puede acceder a todos los elementos de la página.
+
+----------------
+Element Node
+----------------
+Representa una etiqueta HTML dentro del documento.
+
+Ejemplo:
+
+<div>
+  <p>Hola mundo</p>
+</div>
+
+============================
+Elementos del DOM:
+============================
+
+-div
+-p
+-body
+-header
+-section
+
+Ejemplo de acceso desde JavaScript:
+
+-----------------------------
+document.querySelector("p")
+----------------------------
+
+
+============================
+Text Node
+============================
+
+Representa el contenido textual dentro de un elemento HTML.
+
+Ejemplo:
+-------------------
+<p>Hola mundo</p>
+-------------------
+
+El texto "Hola mundo" es un Text Node dentro del elemento <p>.
+
+
+============================
+Attribute Node
+============================
+
+Representa los atributos de los elementos HTML.
+
+Ejemplo:
+
+<img src="imagen.jpg" class="foto">
+
+Atributos del nodo:
+
+-src
+-class
+-id
+-href
+
+============================
+Ejemplo en JavaScript:
+============================
+
+element.getAttribute("class")
+
+
+
+============================
+Conclusión
+============================
+
+El DOM es la representación estructurada de un documento HTML dentro del navegador.
+Gracias a esta estructura, los desarrolladores pueden manipular dinámicamente la interfaz de usuario mediante JavaScript, permitiendo construir aplicaciones web interactivas.
