@@ -1,0 +1,101 @@
+
+Manipulación del DOM en el Proyecto
+=============================================
+Contexto:
+
+En este proyecto se desarrolla una aplicación web que permite interactuar con diferentes módulos del sistema a través de una interfaz dinámica en el navegador.
+Para que la interfaz responda a las acciones del usuario, el navegador utiliza el Document Object Model (DOM), que representa el documento HTML como una estructura de nodos en memoria.
+
+La manipulación del DOM permite que el sistema:
+
+1.actualice información en pantalla
+2.renderice componentes dinámicos
+3.responda a eventos del usuario
+4.modifique contenido sin recargar la página
+
+
+Uso del DOM dentro del sistema
+=============================================
+
+Dentro del proyecto, el DOM es manipulado principalmente a través de JavaScript y componentes de la interfaz, lo que permite actualizar la vista cuando el usuario interactúa con la aplicación.
+Las principales interacciones que requieren manipulación del DOM son:
+
+
+Renderizado de información
+=============================================
+Cuando el sistema obtiene datos, estos se muestran dinámicamente en la interfaz.
+
+Ejemplo:
+
+1.mostrar registros
+2.actualizar tablas
+3.renderizar listas de información
+4.Esto se logra insertando o modificando elementos dentro del DOM.
+
+Interacción del usuario
+=============================================
+Cuando un usuario interactúa con la interfaz (clics, formularios o navegación), se ejecutan eventos que modifican el DOM.
+
+------------------------------------------
+Ejemplo:
+
+document.querySelector("#btnEnviar")
+.addEventListener("click", function(){
+   console.log("Acción ejecutada");
+});
+-----------------------------------------
+
+
+Esto permite que la aplicación responda en tiempo real a las acciones del usuario.
+
+Actualización dinámica de la interfaz
+
+El DOM permite modificar contenido sin necesidad de recargar la página.
+
+Ejemplo de cambios en la interfaz:
+
+1.actualizar mensajes en pantalla
+2.cambiar contenido de formularios
+3.mostrar u ocultar elementos
+
+-------------------------------------------------------------
+Ejemplo:
+
+document.querySelector("#mensaje").textContent = "Datos guardados correctamente";
+
+-------------------------------------------------------------
+
+
+Flujo de interacción en el proyecto
+=============================================
+El flujo general de interacción entre el usuario y el DOM dentro de la aplicación es el siguiente:
+
+
+
+
+----------------------------------------
+Usuario
+   ↓
+Interacción con la interfaz
+   ↓
+Evento capturado por JavaScript
+   ↓
+Manipulación del DOM
+   ↓
+Actualización visual en el navegador
+
+------------------------------------------
+
+Este proceso permite que la aplicación sea dinámica, interactiva y eficiente, evitando recargas completas de la página.
+
+Justificación del uso del DOM en el proyecto
+
+La manipulación del DOM es fundamental para el funcionamiento del sistema, ya que permite:
+
+1.actualizar la interfaz de usuario de forma dinámica
+2.mejorar la experiencia de interacción
+3.mostrar información en tiempo real
+4.gestionar eventos generados por el usuario
+
+
+Gracias al uso del DOM, la aplicación puede comportarse como una aplicación web interactiva, donde los cambios en los datos se reflejan inmediatamente en la interfaz.
